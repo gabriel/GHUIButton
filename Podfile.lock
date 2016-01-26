@@ -1,0 +1,16 @@
+PODS:
+  - GHKit (2.0.1)
+
+DEPENDENCIES:
+  - GHKit (from `~/Projects/GHKit`)
+
+EXTERNAL SOURCES:
+  GHKit:
+    :path: "~/Projects/GHKit"
+
+SPEC CHECKSUMS:
+  GHKit: b464d2304649104b406d7196d38303c459406def
+
+PODFILE CHECKSUM: 005e47f5c166e00a412725d12fe4f8084f68e95f
+
+COCOAPODS: 1.0.0.beta.2
