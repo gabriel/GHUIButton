@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3F03C573F3FF9692C7CDD5A1D35403D2AB0EA09A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FCF1318D7FA6CAB10513AC324A1290B93E7E7F64" : 0,
+    "3F03C573F3FF9692C7CDD5A1D35403D2AB0EA09A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DBC75901-2D1E-4802-9143-200391B79EA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FCF1318D7FA6CAB10513AC324A1290B93E7E7F64" : "GHKit\/",
+    "3F03C573F3FF9692C7CDD5A1D35403D2AB0EA09A" : "GHUIButton\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GHUIButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GHUIButton.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gabriel\/GHUIButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F03C573F3FF9692C7CDD5A1D35403D2AB0EA09A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gabriel\/GHKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCF1318D7FA6CAB10513AC324A1290B93E7E7F64"
+    }
+  ]
+}

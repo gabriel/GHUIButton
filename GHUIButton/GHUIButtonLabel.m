@@ -104,11 +104,6 @@
   return sizeForHeight;
 }
 
-- (void)prepareForReuse {
-  [self viewInit];
-  [self setNeedsLayout];
-}
-
 - (BOOL)shouldDrawText {
   return ![self isAnimating] && !self.textHidden;
 }

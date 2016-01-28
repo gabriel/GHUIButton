@@ -18,12 +18,8 @@
 @implementation GHUIButton
 
 - (void)viewInit {
-  self.label = [[GHUIButtonLabel alloc] init];
-
-  self.userInteractionEnabled = YES;
-  self.backgroundColor = [UIColor whiteColor];
-  self.opaque = YES;
-  self.accessibilityTraits |= UIAccessibilityTraitButton;
+  _label = [[GHUIButtonLabel alloc] init];
+  [self addSubview:_label];
 
   self.insets = UIEdgeInsetsMake(9, 10, 9, 10);
   self.borderWidth = 1.0;
@@ -35,16 +31,11 @@
   self.disabledBorderColor = [UIColor lightGrayColor];
   self.textColor = [UIColor colorWithRed:0 green:122.0/255.0 blue:1.0f alpha:1.0f];
   self.font = [UIFont systemFontOfSize:20.0f];
-  self.style.disabledAlpha = 0.5;
-  self.style.disabledTextColor = [UIColor grayColor];
-  self.style.selectedShadingType = GHUIShadingTypeUnknown;
-  self.style.disabledAlpha = 1.0;
 
-  [self addSubview:self.label];
-}
-
-- (void)prepareForReuse {
-  [self viewInit];
+  _label.disabledAlpha = 0.5;
+  _label.disabledTextColor = [UIColor grayColor];
+  _label.selectedShadingType = GHUIShadingTypeUnknown;
+  _label.disabledAlpha = 1.0;
 }
 
 - (id)initWithFrame:(CGRect)frame {
@@ -63,7 +54,7 @@
 
 - (void)layoutSubviews {
   [super layoutSubviews];
-  self.label.frame = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height);
+  self.label.frame = self.bounds;
 }
 
 - (CGSize)sizeThatFits:(CGSize)size {
