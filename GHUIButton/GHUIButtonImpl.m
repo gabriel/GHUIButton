@@ -18,6 +18,7 @@
 @implementation GHUIButton
 
 - (void)viewInit {
+  NSAssert(!_label, @"Existing label");
   _label = [[GHUIButtonLabel alloc] init];
   [self addSubview:_label];
 
@@ -36,20 +37,6 @@
   _label.disabledTextColor = [UIColor grayColor];
   _label.selectedShadingType = GHUIShadingTypeUnknown;
   _label.disabledAlpha = 1.0;
-}
-
-- (id)initWithFrame:(CGRect)frame {
-  if ((self = [super initWithFrame:frame])) {
-    [self viewInit];
-  }
-  return self;
-}
-
-- (id)initWithCoder:(NSCoder *)coder {
-  if ((self = [super initWithCoder:coder])) {
-    [self viewInit];
-  }
-  return self;
 }
 
 - (void)layoutSubviews {

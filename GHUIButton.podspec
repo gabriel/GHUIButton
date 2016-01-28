@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GHUIButton"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Button."
   s.homepage     = "https://github.com/gabriel/GHUIButton"
   s.license      = "MIT"
