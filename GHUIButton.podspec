@@ -9,15 +9,15 @@
 Pod::Spec.new do |s|
 
   s.name         = "GHUIButton"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Button."
   s.homepage     = "https://github.com/gabriel/GHUIButton"
   s.license      = "MIT"
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
-  s.source       = { :git => "https://github.com/gabriel/GHUIButton", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/gabriel/GHUIButton.git", :tag => s.version.to_s }
   s.requires_arc = true
 
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   s.source_files = "GHUIButton/**/*.{h,m}"
   s.dependency "GHKit"
